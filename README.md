@@ -67,3 +67,22 @@ are different so we need to tell, if auto then o/p goes acc. to model used
 passthrough True is for sending orginial data alog with prediction of base model
 but generally it is False
  
+
+
+Light GBM-
+light gradient boosting
+it is light version of GM
+faster, works in distributed fashion
+based on decision tree algo
+it splits tree leaf wise other algo like XGboost do levelwise splitting
+we minimize overfitting by defining depthe of spliting
+(not explained in detail so learn maths behind it)
+
+CatBoost-
+new generation of gradient boosting
+it works well with hetrogenous data like images sound text video
+very little preprocessing needed before model building
+(not understand inner working of this so learn it)
+
+
+we can combine gradient boosting with neural network to get better result
